@@ -1,6 +1,6 @@
 # Context-Aware Rate Limiter (Nestack Take-Home)
 
-**Live deployment:** `<PASTE YOUR DEPLOYMENT URL HERE>`
+**Live deployment:** `https://ganeshteja-nestack-submission.onrender.com`
 
 A Flask service whose middleware applies a different rate limit depending on who is calling (free or paid tier) and what they are calling (AI/heavy or read/light endpoint). All state lives in process memory. There is no Redis, no database, and no rate-limiting library.
 
